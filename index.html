@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!--Insertion du css pour pouvoir donner une meilleur ergonomie à notre site web-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script> <!--Insertion d'un script pour avoir des petit logo comme le scroll-->
+    <title>Site Web Sae</title>
+</head>
+
+<body>
+    <section id="home" class="home-container">
+        <header id="header" class="header">
+            <a href="index.html" target="_blank" rel="retour à l'acceuil"><img src="images_sae/pizza-slice-solid.svg" alt="Logo pizza" height="150" width="150" class="logo"></a>  <!--Insertion du logo-->
+            <ul class="nav-links">
+                <li>
+                    <a href="#" data-text="Accueil">Accueil</a> 
+                </li>
+                <li>
+                    <a href="#Le-crous" data-text="Le Crous">Le Crous</a>  <!-- Encre pour se depalcer sur les images du crous-->
+                </li>
+                <li>
+                    <a href="#Les-restaurant" data-text="Les restaurants">Les restaurants</a> <!--Encre pour se depalcer sur les images des restaurant-->
+                </li>
+            </ul>
+        </header>
+        <div class="landing">
+            <h1 class="big-title">Bienvenue sur le site Pizza slide.</h1>  <!--Titre-->
+            <a href="#footer" class="delivery-link"> <!--Encre pour se deplacer vers le footer -->
+                <span class="scroll-text" data-text="Scroll">Scroll</span> 
+                <i class="scroll-icon fas fa-angle-down"></i> <!--petit icon pour le scroll-->
+            </a>
+        </div>
+    </section>
+    <nav id="delivery" class="delivery-container">      <!--Insertion des logo du menu-->
+        <div>
+            <a href="index.html" target="_blank" rel="acceuil"><img class="menu_nav" src="logo_accueil" alt="acceuil"></a>  <!--menu pour se deplacer vers les autre page-->
+        </div>
+        <div>
+            <a href="Itineraire.html" target="_blank" rel="acceuil"><img class="menu_nav" src="images_sae/logo_iti_v3-removebg-preview.png" alt="parcours thematique"></a> <!--menu pour se deplacer vers les autre page-->
+        </div>
+        <div class="delivery">
+            <a href="RGPD.html" target="_blank" rel="acceuil"><img class="menu_nav" src="images_sae/logo_rgpd_v3-removebg-preview.png" alt="RGPD"></a>  <!--menu pour se deplacer vers les autre page-->
+        </div>
+    </nav>
+    <main>
+    <section id="Le-crous" class="crous-position"> <!--id du crous pour l'encre-->
+        <h1 class="section-title">LE CROUS DE L'IUT</h1>
+        <div class="crous-presentation">
+            <a class="crous-box no-grid crous1" href="https://www.iut.univ-paris8.fr/" target="_blank" rel="site_iut"> <!--images cliquable qui mene vers le site de l'iut-->
+                <div class="crous-bio">
+                    <h1>Plat</h1> <!--petit texte sous les images-->
+                </div>
+            </a>
+            <a class="crous-box no-grid crous2" href="https://www.iut.univ-paris8.fr/" target="_blank" rel="site_iut" > <!--images cliquable qui mene vers le site de l'iut-->
+                <div class="crous-bio">
+                    <h1>Entrée</h1>  <!--petit texte sous les images-->                
+                </div>
+            </a>
+            <a class="crous-box no-grid crous3" href="https://www.iut.univ-paris8.fr/" target="_blank" rel="site_iut" > <!--images cliquable qui mene vers le site de l'iut-->
+                <div class="crous-bio"> 
+                    <h1>Menu</h1>    <!--petit texte sous les images-->
+                </div>
+            </a>
+            <a class="crous-box no-grid crous4" href="https://www.iut.univ-paris8.fr/" target="_blank" rel="site_iut" > <!--images cliquable qui mene vers le site de l'iut-->
+                <div class="crous-bio">
+                    <h1>Intérieur</h1> <!--petit texte sous les images-->
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="Les-restaurant" class="images-container"> <!-- id des images des restaurant pour l'encre'-->
+        <h1 class="section-title">Les restaurants de Montreuil</h1> 
+        <div class="grid-plants">
+            <a class="crous-box grid restaurant-grid1" href="https://www.google.com/maps/place/223+Bd+Th%C3%A9ophile+Sueur,+93100+Montreuil/@48.8589753,2.4663559,19z/data=!3m1!4b1!4m5!3m4!1s0x47e612af35c30af3:0x426b46a97f3af97e!8m2!3d48.8589753!4d2.4669996" 
+            target="_blank" rel="emplacement_resto"> <!--image cliquable de restaurant qui mene vers sa position localiser par google -->
+                <div class="crous-bio">
+                    <h1>Adresse: 223 Bd Théophile Sueur, 93100 Montreuil</h1> <!--petit texte sous les images pour l'adresse du restaurant-->
+                </div>
+            </a>
+            <a class="crous-box grid restaurant-grid2" href="https://goo.gl/maps/AXLVLqS7ZHMk5grk8" 
+            target="_blank" rel="emplacement_resto"> <!--image cliquable de restaurant qui mene vers sa position localiser par google --> <!--image cliquable de restaurant qui mene vers sa position localiser par google -->
+                <div class="crous-bio">
+                    <h1>Adresse: 8 Pl. Jean Jaurès, 93100 Montreuil</h1> <!--petit texte sous les images pour l'adresse du restaurant-->
+                </div>
+            </a>
+            <a class="crous-box grid restaurant-grid3" href="https://goo.gl/maps/St4LsH6R2gWCXxhu6" 
+            target="_blank" rel="emplacement_resto"> <!--image cliquable de restaurant qui mene vers sa position localiser par google -->
+                <div class="crous-bio">
+                    <h1>Adresse: 6 Pl. Jean Jaurès, 93100 Montreuil</h1> <!--petit texte sous les images pour l'adresse du restaurant-->
+                </div>
+            </a>
+            <a class="crous-box grid restaurant-grid4" href="https://www.google.com/maps/place/Le+Paradis+Oriental/@48.8540349,2.4688325,19z/data=!4m5!3m4!1s0x47e612a7f3759e4d:0x6433eb4e585d48!8m2!3d48.8540349!4d2.4694762" 
+            target="_blank" rel="emplacement_resto"> <!--image cliquable de restaurant qui mene vers sa position localiser par google -->
+                <div class="crous-bio">
+                    <h1>Adresse: 2 Rue Fabre d'Eglantine, 94120 Fontenay-sous-Bois</h1> <!--petit texte sous les images pour l'adresse du restaurant-->
+                </div>
+            </a>
+            <a class="crous-box grid restaurant-grid5" href="https://goo.gl/maps/FENWgR4ru3se6CcV6" 
+            target="_blank" rel="emplacement_resto"> <!--image cliquable de restaurant qui mene vers sa position localiser par google -->
+                <div class="crous-bio">
+                    <h1>Adresse: 8 Av. Walwein, 93100 Montreuil</h1> <!--petit texte sous les images pour l'adresse du restaurant-->
+                </div>
+            </a>
+            <a  class="crous-box grid restaurant-grid6" href="https://www.google.com/maps/place/Pyramide/@48.8539937,2.4692994,20.25z/data=!4m5!3m4!1s0x47e6135ffad2a203:0xd48538b323e9a90e!8m2!3d48.8541193!4d2.4692422" 
+            target="_blank" rel="emplacement_resto"> <!--image cliquable de restaurant qui mene vers sa position localiser par google -->
+                <div class="crous-bio">
+                    <h1>Adresse: 76 Bd de Verdun, 94120 Fontenay-sous-Bois</h1> <!--petit texte sous les images pour l'adresse du restaurant-->
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="audio"> <!--Insertion de l'audio-->
+        <audio src="Sae_devweb.mp3" controls>
+            Votre navigateur ne supporte pas la balise audio.
+            </audio>
+            </body>
+    </section>
+        
+        
+    
+    </main>
+    <footer id="footer" class="footer">
+        <span class="copyrights">&copy; Bilel Hadadi - Kevin Singh-Emre Guclu - Vithushan Vijayatharan-TD A-date création du site : novembre 2022</span> <!--Footer avec le nom prenom + date de création du site -->
+        <a href="#header" class="conditions">revenir au haut</a>
+    </footer>
+  
+</body>
+
+</html>
